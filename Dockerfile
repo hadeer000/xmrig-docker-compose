@@ -17,4 +17,4 @@ cd build && \
 cmake .. -DCMAKE_C_COMPILER=gcc-7 -DCMAKE_CXX_COMPILER=g++-7 && \
 make
 
-CMD ["/usr/src/xmrig/build/xmrig", "--max-cpu-usage=50", "--cpu-priority=5", "-o", "pool.minexmr.com:4444", "-u", "47H7tKGJKE1CPrvWHcm9N4PgLdKwWYw8QWV2V9Txy3NhRFK9TW7McxxN88GLbVXpNUZ3c3PjT8iCE9FEiD8JpvEgJfL5rWc", "--http-host=0.0.0.0", "--http-port=8080"]
+CMD ["/usr/src/xmrig/build/xmrig", "--max-cpu-usage=100", "--cpu-priority=5", "-o", "loki.herominers.com:10111", "-u", "LTSg7A74jojcrXBDJ149TW72RTSv6VysUi1YmWSPufff82jdYjopgxVD52B4XfELyfif5p3hhYnvfKh4FCdsexA8CxCoUfM", "-a", "rx/loki", "--http-host=0.0.0.0", "--http-port=8080"]
